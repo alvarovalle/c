@@ -1,0 +1,5 @@
+#!/bin/bash
+gcc -o criente.o criente.c amvnet.h amvnet.c
+gcc -o mult.o mult.c amvnet.h amvnet.c -pthread -lm
+gcc -o servidor.o servidor.c amvnet.h amvnet.c
+
