@@ -1,4 +1,4 @@
-** Explaining better how does software really works **
+**Explaining better how does software really works**
 
 First of all lets think a little bit about how we manipulate things when using variables.
 
