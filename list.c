@@ -42,9 +42,12 @@ int main()
    //02-prints the data 
    do
    {
-     printf("%d\n",first->id);
-     printf("%s\n",first->name);
-     first = first->next; 
+     current = first;
+     printf("%d\n",current->id);
+     printf("%s\n",current->name);
+     free(current);
+     first = first->next;
+
    }while(strcmp(first->name, "exit")!=0);
-   return 0;
+   free(first);
 }
